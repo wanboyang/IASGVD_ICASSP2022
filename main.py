@@ -1,3 +1,9 @@
+"""
+Main training and evaluation script for IASGVD-ICASSP2022 / IASGVD-ICASSP2022的主要训练和评估脚本
+This module implements the main training loop and evaluation for video grounding and captioning.
+此模块实现了视频定位和描述生成的主要训练循环和评估。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #

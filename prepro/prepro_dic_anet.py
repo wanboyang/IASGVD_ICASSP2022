@@ -1,3 +1,9 @@
+"""
+Data preprocessing for ActivityNet dataset / ActivityNet数据集的数据预处理
+This module preprocesses the ActivityNet dataset for video grounding and captioning tasks.
+此模块为视频定位和描述生成任务预处理ActivityNet数据集。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #

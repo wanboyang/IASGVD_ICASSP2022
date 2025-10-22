@@ -1,3 +1,9 @@
+"""
+Vocabulary overlap analysis tool / 词汇重叠分析工具
+This module analyzes the overlap between object class vocabularies from different datasets.
+此模块分析不同数据集之间对象类别词汇的重叠情况。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #

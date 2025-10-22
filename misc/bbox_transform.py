@@ -1,3 +1,9 @@
+"""
+Bounding box transformation utilities / 边界框变换工具函数
+This module contains functions for bounding box transformations, overlaps calculation, and IoU/IoP computation.
+此模块包含边界框变换、重叠计算和IoU/IoP计算的函数。
+"""
+
 # -*- coding: UTF-8 -*-
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
@@ -389,5 +395,3 @@ def bbox_iou_iop_batch(anchors, gt_boxes, frm_mask=None):
         raise ValueError('anchors input dimension is not correct.')
 
     return [overlaps, overlaps_iop]
-
-

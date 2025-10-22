@@ -1,3 +1,9 @@
+"""
+Transformer model implementation for video grounding and captioning / 视频定位和描述生成的Transformer模型实现
+This module contains the Transformer encoder and decoder implementations for the video grounding system.
+此模块包含视频定位系统的Transformer编码器和解码器实现。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #

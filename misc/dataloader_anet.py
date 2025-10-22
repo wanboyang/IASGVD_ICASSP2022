@@ -1,3 +1,9 @@
+"""
+Data loader for ActivityNet dataset / ActivityNet数据集的数据加载器
+This module implements the DataLoader class for loading video segments and annotations.
+此模块实现了用于加载视频片段和标注的DataLoader类。
+"""
+
 # -*- coding: UTF-8 -*-
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.

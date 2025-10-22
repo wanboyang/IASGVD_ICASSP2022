@@ -1,3 +1,9 @@
+"""
+Command-line argument parser for IASGVD-ICASSP2022 / IASGVD-ICASSP2022的命令行参数解析器
+This module defines all command-line arguments for the video grounding and captioning system.
+此模块定义了视频定位和描述生成系统的所有命令行参数。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #
@@ -8,8 +14,16 @@
 import argparse
 
 def parse_opt():
-    parser = argparse.ArgumentParser()
-    # Data input settings
+    """
+    Parse command-line arguments for the IASGVD-ICASSP2022 video grounding and captioning system.
+    解析IASGVD-ICASSP2022视频定位和描述生成系统的命令行参数。
+    
+    Returns:
+        argparse.Namespace: Parsed command-line arguments
+    """
+    parser = argparse.ArgumentParser(description="IASGVD-ICASSP2022: Video Grounding and Captioning System")
+    
+    # Data input settings / 数据输入设置
     parser.add_argument('--path_opt', type=str, default='cfgs/anet_res101_vg_feat_10x100prop.yml',
                     help='')
     parser.add_argument('--dataset', type=str, default='anet',

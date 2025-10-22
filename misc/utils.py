@@ -1,3 +1,9 @@
+"""
+Utility functions for video grounding and captioning / 视频定位和描述生成的工具函数
+This module contains various utility functions for the IASGVD-ICASSP2022 project.
+此模块包含IASGVD-ICASSP2022项目的各种工具函数。
+"""
+
 # -*- coding: UTF-8 -*-
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.

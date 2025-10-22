@@ -1,3 +1,9 @@
+"""
+Attention models for video grounding and captioning / 视频定位和描述生成的注意力模型
+This module implements various attention mechanisms for the IASGVD-ICASSP2022 project.
+此模块实现了IASGVD-ICASSP2022项目的各种注意力机制。
+"""
+
 # Copyright (c) Facebook, Inc. and its affiliates.
 # All rights reserved.
 #
